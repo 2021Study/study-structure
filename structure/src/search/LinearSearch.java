@@ -13,7 +13,7 @@ public class LinearSearch {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		int arr[] = {2, 51, 23, 43, 8, 43, 12};
-		System.out.print("찾을 값 입력: ");
+		System.out.print("key what you want to find: ");
 		int key = scan.nextInt();
 		System.out.println(key+" is found at index : "+linearSearch(arr, key));
 		
