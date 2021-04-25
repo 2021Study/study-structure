@@ -61,7 +61,7 @@ public class RadixSort2 {
         int length = 0;
         int idx= 0;
         
-        Map<Integer, Queue> map = new HashMap<>();
+        Map<Integer, Queue> map = new HashMap<Integer, Queue>();
         
         for (int l : arr) {
         	length = (int) Math.log10(Math.abs(l))+1;	//자리수 구하는 식
